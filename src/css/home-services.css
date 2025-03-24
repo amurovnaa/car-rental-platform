@@ -1,0 +1,116 @@
+.home-services-container {
+  padding: 26px 46px 32px 46px;
+}
+.home-services-title {
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  color: #323232;
+  margin-bottom: 26px;
+}
+.home-services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 26px;
+}
+.home-services-item {
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: black;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  p {
+    max-width: 253px;
+  }
+}
+.home-services-icon {
+  width: 18px;
+  height: 18px;
+  fill: #688990;
+}
+.home-services-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+}
+.home-services-btn {
+  border-radius: 32px;
+  height: 36px;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 0%;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: #eff3fd;
+  background-color: #3e5853;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-services-btn:first-of-type {
+  width: 112px;
+}
+.home-services-btn:last-of-type {
+  width: 127px;
+}
+.home-services-img {
+  display: none;
+}
+@media screen and (min-width: 1440px) {
+  .home-services-container {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    padding: 46px 114px;
+  }
+  .home-services-textcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-services-title {
+    font-size: 40px;
+    margin-bottom: 27px;
+    min-height: 49px;
+  }
+  .home-services-list {
+    gap: 16px;
+    margin-bottom: 53px;
+  }
+  .home-services-item {
+    font-size: 20px;
+    gap: 16px;
+    p {
+      max-width: 447px;
+    }
+  }
+  .home-services-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .home-services-btns {
+    display: flex;
+    flex-direction: row;
+    gap: 68px;
+    justify-content: flex-start;
+  }
+  .home-services-btn {
+    height: 50px;
+    font-size: 18px;
+  }
+  .home-services-btn:last-of-type {
+    width: 190px;
+  }
+  .home-services-btn:first-of-type {
+    width: 190px;
+  }
+  .home-services-img {
+    display: unset;
+  }
+}
